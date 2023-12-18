@@ -212,3 +212,6 @@ ggplot2::ggsave(p4[[1]], file = "/home/n1/leelabguest/GCDA/4_MR/results/HDL_T2D_
 This Section is based on MVMR package [vignette](https://wspiller.github.io/MVMR/articles/MVMR.html).
 
 ![image](https://wspiller.github.io/MVMR/articles/png/workflow.png)
+
+[MVMR Paper](https://academic.oup.com/aje/article/181/4/251/121453?login=false)
+
