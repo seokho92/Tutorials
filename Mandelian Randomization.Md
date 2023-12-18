@@ -1,12 +1,6 @@
-# Practice Session #4: Two-sample Mandelian Randomization (May 4, 2023)
-In this session, we will learn how to perform two Sample MR with publicly available GWAS datasets. \
+# Two-sample Mandelian Randomization 
 The overall process in this session is mainly based on the [TwoSampleMR in R vignette](https://mrcieu.github.io/TwoSampleMR/). \
-This document was created on May 2, 2023 and the following contents were tested on GSDS Cluster.
-## Assignment 3 Notice (Due 18th 11:59 pm) 
-[HW3.pdf](https://github.com/leelabsg/GCDA_Tutorial/files/11380912/HW3.pdf)
-
-#### PRS construction
-While constructing prs, please use leelabsg11 via ssh. 
+The following contents were tested on GSDS Cluster.
 
 #### Two Sample MR
 
@@ -213,3 +207,6 @@ head(res_loo) ; summary(res_loo$p)
 p4 <- mr_leaveoneout_plot(res_loo)
 ggplot2::ggsave(p4[[1]], file = "/home/n1/leelabguest/GCDA/4_MR/results/HDL_T2D_LOO.png", width = 7, height = 7)
 ```
+
+# Multivariate Mandelian Randomization (MVMR)
+This Section is based on MVMR package [vignette] (https://wspiller.github.io/MVMR/articles/MVMR.html)
