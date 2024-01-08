@@ -9,6 +9,8 @@ To avoid conflicts in dependecies, we will create new environment for two sample
 First, lets install R and devtools in new conda environment (Already installed in gsds cluster under leelabguest)
 ```
 conda create -n twoMR r-base r-essentials r-devtools r-remotes r-gmp -c conda-forge -c R 
+```
+```
 conda activate twoMR ; R --no-save
 ```
 TwoSampleMR pacakge is installed from github 
